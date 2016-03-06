@@ -6,6 +6,12 @@ I will probably support more streaming sites in the future.
 
 Once you have the stream url, you should copy it into livestreamer.
 
+### Installation
+
+```
+sudo make install
+```
+
 ### Support
 
 This is a personal script. It's for Linux. Please let me know if you're using
