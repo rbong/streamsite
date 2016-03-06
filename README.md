@@ -27,10 +27,10 @@ username to figure out the channel's regular URL and feed that to livestreamer.
 swf streamers suck. By divorcing them, you can even run the stream through your
 raspberry pi with graphics accelerated video playing without hiccups.
 ```
-livestreamer $(suptv.sh) -np omxplayer
+livestreamer $(suptv) -np omxplayer
 ```
 Or, if you have an ssh server named rpi set up,
 ```
-ssh rpi livestreamer $(suptv.sh) -np omxplayer
+ssh rpi livestreamer $(suptv) -np omxplayer
 ```
 It will magically play over HDMI.
