@@ -4,7 +4,7 @@ A quick script for grabbing the currently embedded stream at suptv.org
 
 I will probably support more streaming sites in the future.
 
-Once you have the stream url, you should pipe the command into livestreamer.
+Once you have the stream url, you should copy it into livestreamer.
 
 ### Support
 
