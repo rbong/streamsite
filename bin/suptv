@@ -1,2 +1,2 @@
 #!/bin/bash
-phantomjs /usr/local/etc/streamsite/js/get.js
+phantomjs /usr/local/etc/streamsite/js/suptv.js
