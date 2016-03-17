@@ -1,0 +1,2 @@
+#!/bin/bash
+phantomjs /usr/local/etc/streamsite/js/streamsite.js "http://filthycasuals.tv" "stream"
