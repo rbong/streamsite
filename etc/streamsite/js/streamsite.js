@@ -1,8 +1,15 @@
+"use strict"
 var webPage = require ('webpage');
+var flash = require ('./flash.js');
 var page = webPage.create ();
 var system = require ('system');
 var url = system.args [1];
 var id = system.args [2];
+
+page.onInitialized = function () {
+    // fake flash
+    flash (page);
+}
 
 page.open (url, function (status) {
     var title = page.evaluate (function (_id) {
