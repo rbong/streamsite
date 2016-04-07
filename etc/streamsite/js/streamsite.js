@@ -13,7 +13,20 @@ page.onInitialized = function () {
 
 page.open (url, function (status) {
     var title = page.evaluate (function (_id) {
-        return document.getElementById (_id).children [0].src;
+        var t = document.getElementById (_id);
+        if (t && t.children && t.children [0]) {
+            t = t.children [0].src;
+        }
+        else {
+            var t = document.getElementsByClassName (_id);
+            if (t [0] && t [0].children [0]) {
+                 t = t [0].children [0].src;
+            }
+            else {
+              return;
+            }
+        }
+        return t;
     }, id);
 
     console.log (title);
