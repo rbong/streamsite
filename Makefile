@@ -1,6 +1,5 @@
 install:
-	if [ ! -d phantomjs-flash ]; then\
-		git clone https://github.com/rbong/phantomjs-flash;\
+	if [ ! -d etc/streamsite/js/flash.js ]; then\
 		cp phantomjs-flash/flash.js etc/streamsite/js;\
 	fi
 	cp -r bin/* /usr/local/bin
