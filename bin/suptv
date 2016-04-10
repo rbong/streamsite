@@ -1,2 +1,2 @@
 #!/bin/bash
-phantomjs /usr/local/etc/streamsite/js/streamsite.js "http://suptv.org" "player-embed"
+phantomjs /usr/local/etc/streamsite/js/streamsite.js "http://suptv.org/$@" "player-embed"
