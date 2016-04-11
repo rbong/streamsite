@@ -1,2 +1,2 @@
 #!/bin/bash
-phantomjs /usr/local/etc/streamsite/js/streamsite.js "http://filthycasuals.tv" "stream"
+phantomjs $(dirname ${BASH_SOURCE[0]})/../etc/streamsite/js/streamsite.js "http://filthycasuals.tv" "stream"
